@@ -39,7 +39,7 @@
         }
 
         [Fact]
-        public void ToCommaSeparatedList_NullOrEmptyItems_ShouldReturnEmptyString()
+        public void ToCommaSeparatedList_ShouldReturnEmptyStringDueToNullOrEmptyItems()
         {
             // Arrange
             string[] nullItems = null;
@@ -55,7 +55,7 @@
         }
 
         [Fact]
-        public void ToCommaSeparatedList_SingleItem_ShouldReturnOriginalItemWithQuote()
+        public void ToCommaSeparatedList_ShouldReturnOriginalItemWithQuoteDueToSingleItem()
         {
             // Arrange
             var quote = "'";
@@ -69,7 +69,7 @@
         }
 
         [Fact]
-        public void ToCommaSeparatedList_MultipleItems_ShouldReturnCommaSeparatedString()
+        public void ToCommaSeparatedList_ShouldReturnCommaSeparatedStringDueToMultipleItems()
         {
             // Arrange
             var quote = "'";
