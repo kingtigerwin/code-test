@@ -1,0 +1,63 @@
+# --- Build results ---
+bin/
+obj/
+out/
+Debug/
+Release/
+*.exe
+*.dll
+*.log
+*.pdb
+*.cache
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Rider / VS Code / Visual Studio ---
+.vs/
+.idea/
+.vscode/
+*.dbmdl
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# --- Packages ---
+# NuGet packages are restored on build, so don't commit them
+packages/
+*.nupkg
+*.snupkg
+
+# --- Test results ---
+TestResults/
+*.coverage
+*.coveragexml
+*.testresult.xml
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Resharper / dotCover / CodeRush ---
+_ReSharper*/
+*.DotSettings.user
+*.DotCover
+*.crunch.xml
+
+# --- Logs / temporary ---
+*.log
+*.tmp
+*.temp
+
+# --- Others ---
+*.swp
+*.bak
+*.orig
+
+# --- Publish outputs ---
+/publish/
+/artifacts/
+/site/
